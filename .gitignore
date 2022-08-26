@@ -60,3 +60,6 @@ target/
 
 # IDE
 .idea
+
+# hls directory
+assets/hls/**

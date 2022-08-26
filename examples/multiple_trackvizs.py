@@ -74,7 +74,7 @@ def main(dataQueueInput, dataQueueOutput, consoleQueue, commandQueue):
     ### -------------------- ### PYGAME PART ### -------------------- ###
 
     sim = Simulation(track_vizs, [], 0)
-    # sim.run(speed=1, refresh_rate=0.1, osm_zoom=zoom)
+    # sim.run(speed=1, refresh_rate=0.1, osm_zoom=zoom) 
 
     sim.run_with_web(commandQueue, speed=1, refresh_rate=0.1, osm_zoom=zoom)
 
